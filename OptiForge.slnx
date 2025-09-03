@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OptiForge.AppHost/OptiForge.AppHost.csproj" />
+    <Project Path="src/OptiForge.Client/OptiForge.Client.esproj">
+      <Build />
+      <Deploy />
+    </Project>
+    <Project Path="src/OptiForge.ClientHost/OptiForge.ClientHost.csproj" />
+    <Project Path="src/OptiForge.Runtime/OptiForge.Runtime.csproj" />
+    <Project Path="src/OptiForge.Server/OptiForge.Server/OptiForge.Server.csproj" />
+  </Folder>
+</Solution>
