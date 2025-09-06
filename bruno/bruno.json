@@ -1,0 +1,19 @@
+{
+  "version": "1",
+  "name": "OptiForge",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ],
+  "size": 0,
+  "filesCount": 0,
+  "grpc": {
+    "protoFiles": [
+      {
+        "path": "..\\src\\OptiForge.ClientHost\\Robots\\robots.proto",
+        "type": "file"
+      }
+    ]
+  }
+}

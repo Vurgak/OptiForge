@@ -1,0 +1,21 @@
+meta {
+  name: Get recent
+  type: grpc
+  seq: 1
+}
+
+grpc {
+  url: https://localhost:6101
+  method: /optiforge.robots.Robots/GetRecent
+  body: grpc
+  protoPath: ..\src\OptiForge.ClientHost\Robots\robots.proto
+  auth: none
+  methodType: unary
+}
+
+body:grpc {
+  name: message 1
+  content: '''
+    {}
+  '''
+}
