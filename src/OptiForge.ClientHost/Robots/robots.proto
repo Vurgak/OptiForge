@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+package optiforge.robots;
+option csharp_namespace = "OptiForge.ClientHost.Robots";
+
+import "google/protobuf/empty.proto";
+
+service Robots {
+  rpc GetRecent (google.protobuf.Empty) returns (GetRecentResponse);
+}
+
+message GetRecentResponse {
+  repeated RecentRobot items = 1;
+}
+
+message RecentRobot {
+  string name = 1;
+  string path = 2;
+}
